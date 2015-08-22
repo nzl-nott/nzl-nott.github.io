@@ -4,7 +4,7 @@
   <subtitle><![CDATA[学而不思则罔，思而不学则殆]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://nzl-nott.github.io/"/>
-  <updated>2015-08-22T16:54:05.000Z</updated>
+  <updated>2015-08-22T16:54:35.000Z</updated>
   <id>http://nzl-nott.github.io/</id>
   
   <author>
@@ -15,26 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[序]]></title>
-    <link href="http://nzl-nott.github.io/2015/08/23/hello-world/"/>
-    <id>http://nzl-nott.github.io/2015/08/23/hello-world/</id>
-    <published>2015-08-22T16:54:05.000Z</published>
-    <updated>2015-08-22T16:54:05.000Z</updated>
-    <content type="html"><![CDATA[<p>这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的Blog</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的Blog</p>
-]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[什么是Clojure?]]></title>
     <link href="http://nzl-nott.github.io/2015/08/22/Clojure/"/>
     <id>http://nzl-nott.github.io/2015/08/22/Clojure/</id>
     <published>2015-08-22T13:20:59.000Z</published>
-    <updated>2015-08-22T16:50:31.000Z</updated>
+    <updated>2015-08-22T16:54:35.000Z</updated>
     <content type="html"><![CDATA[<p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
 <blockquote>
 <ul>
@@ -76,6 +61,21 @@
     </summary>
     
       <category term="Clojure" scheme="http://nzl-nott.github.io/tags/Clojure/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[序]]></title>
+    <link href="http://nzl-nott.github.io/2015/08/22/hello-world/"/>
+    <id>http://nzl-nott.github.io/2015/08/22/hello-world/</id>
+    <published>2015-08-22T13:00:00.000Z</published>
+    <updated>2015-08-22T16:55:55.000Z</updated>
+    <content type="html"><![CDATA[<p>这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的Blog</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的Blog</p>
+]]>
+    </summary>
     
   </entry>
   
