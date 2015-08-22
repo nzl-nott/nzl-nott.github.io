@@ -4,7 +4,7 @@
   <subtitle><![CDATA[学而不思则罔，思而不学则殆]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://nzl-nott.github.io/"/>
-  <updated>2015-08-22T16:37:18.000Z</updated>
+  <updated>2015-08-22T16:54:05.000Z</updated>
   <id>http://nzl-nott.github.io/</id>
   
   <author>
@@ -15,12 +15,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[序]]></title>
+    <link href="http://nzl-nott.github.io/2015/08/23/hello-world/"/>
+    <id>http://nzl-nott.github.io/2015/08/23/hello-world/</id>
+    <published>2015-08-22T16:54:05.000Z</published>
+    <updated>2015-08-22T16:54:05.000Z</updated>
+    <content type="html"><![CDATA[<p>这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的Blog</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的Blog</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[什么是Clojure?]]></title>
     <link href="http://nzl-nott.github.io/2015/08/22/Clojure/"/>
     <id>http://nzl-nott.github.io/2015/08/22/Clojure/</id>
     <published>2015-08-22T13:20:59.000Z</published>
-    <updated>2015-08-22T16:37:18.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="什么是Clojure?">什么是Clojure?</h2><p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
+    <updated>2015-08-22T16:50:31.000Z</updated>
+    <content type="html"><![CDATA[<p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
 <blockquote>
 <ul>
 <li><strong>函数式</strong> 语言, 语法接近Lisp</li>
@@ -53,27 +68,14 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="什么是Clojure?">什么是Clojure?</h2><p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
+    <![CDATA[<p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
 <blockquote>
 <ul>
-<li><strong>函数式</strong> 语言, 语法接近Lisp</li>]]>
+<li><strong>函数式</strong> 语言, 语法接近Lisp</li>
+<li>（一般）运行在<strong>JVM</strong>上</li]]>
     </summary>
     
       <category term="Clojure" scheme="http://nzl-nott.github.io/tags/Clojure/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[序]]></title>
-    <link href="http://nzl-nott.github.io/2015/08/22/hello-world/"/>
-    <id>http://nzl-nott.github.io/2015/08/22/hello-world/</id>
-    <published>2015-08-22T09:33:34.000Z</published>
-    <updated>2015-08-22T09:33:33.000Z</updated>
-    <content type="html"><![CDATA[<p>Hello, World! 这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的博客，第一个使用的主题是<a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank" rel="external">Alberta</a>。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Hello, World! 这是一个 <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>制作的博客，第一个使用的主题是<a href="https://github.com/ken8203/he]]>
-    </summary>
     
   </entry>
   
