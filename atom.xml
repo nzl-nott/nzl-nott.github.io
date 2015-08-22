@@ -4,7 +4,7 @@
   <subtitle><![CDATA[学而不思则罔，思而不学则殆]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://nzl-nott.github.io/"/>
-  <updated>2015-08-22T16:29:21.000Z</updated>
+  <updated>2015-08-22T16:37:18.000Z</updated>
   <id>http://nzl-nott.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://nzl-nott.github.io/2015/08/22/Clojure/"/>
     <id>http://nzl-nott.github.io/2015/08/22/Clojure/</id>
     <published>2015-08-22T13:20:59.000Z</published>
-    <updated>2015-08-22T16:29:21.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="什么是Clojure?">什么是Clojure?</h1><p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
+    <updated>2015-08-22T16:37:18.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="什么是Clojure?">什么是Clojure?</h2><p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
 <blockquote>
 <ul>
 <li><strong>函数式</strong> 语言, 语法接近Lisp</li>
@@ -28,14 +28,15 @@
 <li>动态类型</li>
 </ul>
 </blockquote>
-<p>##安装</p>
-<blockquote>
-<ol>
+<h2 id="安装">安装</h2><blockquote>
+<ul>
 <li>首先我们需要确认是否装了java，没有的</li>
 <li>下载Clojure的最新版本，并解压 <a href="http://clojure.org/downloads" target="_blank" rel="external">http://clojure.org/downloads</a></li>
-<li>假设我们的版本号是<code>[Version]</code>,那么只需在解压的目录下运行    <figure class="highlight"><figcaption><span>-cp clojure-[Version].jar clojure.main ```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">现在我们就进入了一个叫做REPL (read-eval-print loop)的界面，现在我们可以试着输入一些Clojure代码了！</span><br><span class="line"></span><br><span class="line">## 语法</span><br><span class="line"></span><br><span class="line">在Clojure里，每一对括号 (...) 就是一个最基本的代码单元：</span><br><span class="line">```clojure</span><br><span class="line">(+ 1 2)</span><br><span class="line"></span><br><span class="line">(println "Hello World!")</span><br></pre></td></tr></table></figure></li>
-</ol>
+<li>假设我们的版本号是<code>[Version]</code>,那么只需在解压的目录下运行    <code>java -cp clojure-[Version].jar clojure.main</code></li>
+</ul>
 </blockquote>
+<p>现在我们就进入了一个叫做REPL (read-eval-print loop)的界面，现在我们可以试着输入一些Clojure代码了！</p>
+<h2 id="语法">语法</h2><p>在Clojure里，每一对括号 (…) 就是一个最基本的代码单元：<br><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">+</span></span> <span class="number">1</span> <span class="number">2</span>)</span></span><br><span class="line"></span><br><span class="line"><span class="list">(<span class="keyword">println</span> <span class="string">"Hello World!"</span>)</span></span><br></pre></td></tr></table></figure></p>
 <p>函数式语言的一大特征就是函数是“一等公民”。在Clojure中，如果要定义一个函数，<br>比如 $$square(x) = x * x$$</p>
 <p>那么就要用到 <code>defn</code> (一个Clojure的 <strong>宏</strong>)</p>
 <figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">defn</span></span> square <span class="collection">[x]</span> <span class="list">(<span class="keyword"><span class="built_in">*</span></span> x x)</span>)</span></span><br></pre></td></tr></table></figure>
@@ -52,7 +53,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="什么是Clojure?">什么是Clojure?</h1><p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
+    <![CDATA[<h2 id="什么是Clojure?">什么是Clojure?</h2><p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
 <blockquote>
 <ul>
 <li><strong>函数式</strong> 语言, 语法接近Lisp</li>]]>
