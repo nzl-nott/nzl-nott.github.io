@@ -157,7 +157,7 @@
           
             
               <a class="post-title-link" href="/2015/08/22/Clojure/" itemprop="url">
-                Clojure?
+                什么是Clojure?
               </a>
             
           
@@ -187,7 +187,37 @@
 
       
         
-          <span itemprop="articleBody"></span>
+          <span itemprop="articleBody"><h1 id="什么是Clojure?">什么是Clojure?</h1><p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
+<blockquote>
+<ul>
+<li><strong>函数式</strong> 语言, 语法接近Lisp</li>
+<li>（一般）运行在<strong>JVM</strong>上</li>
+<li>动态类型</li>
+</ul>
+</blockquote>
+<p>##安装</p>
+<blockquote>
+<ol>
+<li>首先我们需要确认是否装了java，没有的</li>
+<li>下载Clojure的最新版本，并解压 <a href="http://clojure.org/downloads" target="_blank" rel="external">http://clojure.org/downloads</a></li>
+<li>假设我们的版本号是<code>[Version]</code>,那么只需在解压的目录下运行    <figure class="highlight"><figcaption><span>-cp clojure-[Version].jar clojure.main ```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">现在我们就进入了一个叫做REPL (read-eval-print loop)的界面，现在我们可以试着输入一些Clojure代码了！</span><br><span class="line"></span><br><span class="line">## 语法</span><br><span class="line"></span><br><span class="line">在Clojure里，每一对括号 (...) 就是一个最基本的代码单元：</span><br><span class="line">```clojure</span><br><span class="line">(+ 1 2)</span><br><span class="line"></span><br><span class="line">(println "Hello World!")</span><br></pre></td></tr></table></figure></li>
+</ol>
+</blockquote>
+<p>函数式语言的一大特征就是函数是“一等公民”。在Clojure中，如果要定义一个函数，<br>比如 $$square(x) = x * x$$</p>
+<p>那么就要用到 <code>defn</code> (一个Clojure的 <strong>宏</strong>)</p>
+<figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">defn</span></span> square <span class="collection">[x]</span> <span class="list">(<span class="keyword"><span class="built_in">*</span></span> x x)</span>)</span></span><br></pre></td></tr></table></figure>
+<p>这里，defn是定义函数的宏名，square是函数名，[…]中按顺序可以写任意数量的参数（比如[x y z]），最后就是写上函数的定义部分了。代码规范的同学，这时候可以加上一句注释</p>
+<figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">defn</span></span> square <span class="string">"square function"</span> <span class="collection">[x]</span> <span class="list">(<span class="keyword"><span class="built_in">*</span></span> x x)</span>)</span></span><br></pre></td></tr></table></figure>
+<p>这样当其他人需要知道 <em>square</em> 这个函数是做什么的时候，只要输入</p>
+<figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword">doc</span> f4)</span></span><br></pre></td></tr></table></figure>
+<p>就能查看注释信息。</p>
+<p>此外，查看类型也是非常重要的,这里我们要用到函数 <em>class</em></p>
+<figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">class</span></span> <span class="number">1</span>)</span></span><br></pre></td></tr></table></figure>
+<h2 id="提示">提示</h2><p>为了编写Clojure程序，我们需要一些其他的工具，具体可参阅</p>
+<ul>
+<li>[ ] 如何编写Clojure程序</li>
+</ul>
+</span>
         
       
     </div>
@@ -268,67 +298,6 @@
 
 
     
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/08/22/where/" itemprop="url">
-                where
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-08-22T12:23:43+08:00" content="2015-08-22">
-            2015-08-22
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"></span>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -363,7 +332,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -377,7 +346,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
