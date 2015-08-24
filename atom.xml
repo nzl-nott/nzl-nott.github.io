@@ -4,7 +4,7 @@
   <subtitle><![CDATA[学而不思则罔，思而不学则殆]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://nzl-nott.github.io/"/>
-  <updated>2015-08-24T09:18:29.000Z</updated>
+  <updated>2015-08-24T14:14:33.000Z</updated>
   <id>http://nzl-nott.github.io/</id>
   
   <author>
@@ -19,23 +19,28 @@
     <link href="http://nzl-nott.github.io/2015/08/24/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99Clojure%E7%A8%8B%E5%BA%8F/"/>
     <id>http://nzl-nott.github.io/2015/08/24/如何编写Clojure程序/</id>
     <published>2015-08-24T05:24:20.000Z</published>
-    <updated>2015-08-24T09:18:29.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p><em>工欲善其事必先利器</em>     —《论语·魏灵公》</p>
+    <updated>2015-08-24T14:14:33.000Z</updated>
+    <content type="html"><![CDATA[<!-- Built-in tag (Require NexT 0.4.5 or above) -->
+<blockquote class="blockquote-center"><p><em>工欲善其事必先利器</em></p>
+<p>《论语·魏灵公》</p>
 </blockquote>
-<p>为了更方便的编写Clojure的程序，管理Clojure项目，我们需要安装一些其他的工具，比如最常用的一个项目管理工具 <a href="http://leiningen.org/" target="_blank" rel="external">Leiningen</a>，和一个挺不错的IDE <a href="https://www.jetbrains.com/idea/" target="_blank" rel="external">IntelliJ IDEA</a>+<a href="https://cursiveclojure.com/" target="_blank" rel="external">Cursive</a>插件。</p>
-<p>几个常用的命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lein new <span class="string">"name"</span></span><br></pre></td></tr></table></figure></p>
-<p>–新建名为name的project</p>
+<p>为了更方便的编写Clojure的程序，管理Clojure项目，我们需要安装一些其他的工具，比如最常用的一个项目管理工具<a href="http://leiningen.org/" target="_blank" rel="external">Leiningen</a>，和一个挺不错的IDE <a href="https://www.jetbrains.com/idea/" target="_blank" rel="external">IntelliJ IDEA</a>+<a href="https://cursiveclojure.com/" target="_blank" rel="external">Cursive</a>插件。</p>
+<p>几个常用的lein命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lein new <span class="string">"name"</span></span><br></pre></td></tr></table></figure>
+<p>–新建名为name的项目</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lein repl</span><br></pre></td></tr></table></figure>
-<p>–根据依赖关系下载安装需要的库，并打开REPL（读取-求值-打印循环）</p>
+<p>–根据依赖关系下载安装需要的库，并打开REPL</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lein run</span><br></pre></td></tr></table></figure>
-<p>直接运行编译好的程序</p>
+<p>—编译并运行目录下的项目，寻找定义好的<code>-main</code> (等于Java中的main方法)</p>
+<p>此外还有一些很有用的文档</p>
+<p>可以查找的中文API：<a href="http://clojure-api-cn.readthedocs.org/en/latest/" target="_blank" rel="external">http://clojure-api-cn.readthedocs.org/en/latest/</a></p>
+<p>Cheatsheet：<a href="http://clojure.org/cheatsheet" target="_blank" rel="external">http://clojure.org/cheatsheet</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<blockquote>
-<p><em>工欲善其事必先利器</em>     —《论语·魏灵公》</p>
-</blockquote>
-<p>为了更方便的编写Clojure的程序，管理Clojure项目，我们需要安装一些其他的工具，比如最常用的一个项目管理工具 <a href="h]]>
+    <![CDATA[<!-- Built-in tag (Require NexT 0.4.5 or above) -->
+<blockquote class="blockquote-center"><p><em>工欲善其事必先利器</em></p>
+<p>《论语·魏灵公》</p>
+</blockq]]>
     </summary>
     
       <category term="Clojure" scheme="http://nzl-nott.github.io/tags/Clojure/"/>
@@ -60,7 +65,7 @@
     <link href="http://nzl-nott.github.io/2015/08/22/Clojure/"/>
     <id>http://nzl-nott.github.io/2015/08/22/Clojure/</id>
     <published>2015-08-22T13:20:59.000Z</published>
-    <updated>2015-08-24T09:36:44.000Z</updated>
+    <updated>2015-08-24T14:14:31.000Z</updated>
     <content type="html"><![CDATA[<p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>
 <blockquote>
 <ul>
@@ -76,7 +81,7 @@
 <li>假设我们的版本号是<code>[Version]</code>,那么只需在解压的目录下运行    <code>java -cp clojure-[Version].jar clojure.main</code></li>
 </ul>
 </blockquote>
-<p>现在我们就进入了一个叫做REPL (read-eval-print loop)的界面，现在我们可以试着输入一些Clojure代码了！</p>
+<p>现在我们就进入了一个叫做REPL (read-eval-print loop 读取-求值-打印循环)的界面，现在我们可以试着输入一些Clojure代码了！</p>
 <h2 id="语法">语法</h2><p>在Clojure里，每一对括号 (…) 就是一个最基本的代码单元：<br><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">+</span></span> <span class="number">1</span> <span class="number">2</span>)</span></span><br><span class="line"></span><br><span class="line"><span class="list">(<span class="keyword">println</span> <span class="string">"Hello World!"</span>)</span></span><br></pre></td></tr></table></figure></p>
 <p>函数式语言的一大特征就是函数是“一等公民”。在Clojure中，如果要定义一个函数，<br>比如 $$square(x) = x * x$$</p>
 <p>那么就要用到 <code>defn</code> (一个Clojure的 <strong>宏</strong>)</p>
@@ -88,10 +93,7 @@
 <p>就能查看square的注释信息。</p>
 <p>此外，查看类型也是非常重要的,这里我们要用到函数 <em>class</em></p>
 <figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">class</span></span> <span class="number">1</span>)</span></span><br></pre></td></tr></table></figure>
-<h2 id="提示">提示</h2><p>为了编写Clojure程序，我们需要一些其他的工具，具体可参阅</p>
-<ul>
-<li>[ ] 如何编写Clojure程序</li>
-</ul>
+<h2 id="提示">提示</h2><p>为了编写Clojure程序，我们需要一些其他的工具，具体可参阅 <em>如何编写Clojure程序</em>。</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： </p>

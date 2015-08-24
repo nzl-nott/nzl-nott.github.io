@@ -67,7 +67,7 @@
 首先我们需要确认是否装了java，没有的
 下载Clojure的最新版本，并解压 http://clojure.org/downloads
 假设我们的版本号是[Version],那么只需在解压的目录下运行    java -cp clojure-">
-<meta property="og:updated_time" content="2015-08-24T09:36:44.000Z">
+<meta property="og:updated_time" content="2015-08-24T14:14:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="什么是Clojure?">
 <meta name="twitter:description" content="Clojure （发音 [‘kləʊʒə(r)]） 是一种编程语言： 
@@ -250,7 +250,7 @@
 <li>假设我们的版本号是<code>[Version]</code>,那么只需在解压的目录下运行    <code>java -cp clojure-[Version].jar clojure.main</code></li>
 </ul>
 </blockquote>
-<p>现在我们就进入了一个叫做REPL (read-eval-print loop)的界面，现在我们可以试着输入一些Clojure代码了！</p>
+<p>现在我们就进入了一个叫做REPL (read-eval-print loop 读取-求值-打印循环)的界面，现在我们可以试着输入一些Clojure代码了！</p>
 <h2 id="语法">语法</h2><p>在Clojure里，每一对括号 (…) 就是一个最基本的代码单元：<br><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">+</span></span> <span class="number">1</span> <span class="number">2</span>)</span></span><br><span class="line"></span><br><span class="line"><span class="list">(<span class="keyword">println</span> <span class="string">"Hello World!"</span>)</span></span><br></pre></td></tr></table></figure></p>
 <p>函数式语言的一大特征就是函数是“一等公民”。在Clojure中，如果要定义一个函数，<br>比如 $$square(x) = x * x$$</p>
 <p>那么就要用到 <code>defn</code> (一个Clojure的 <strong>宏</strong>)</p>
@@ -262,10 +262,7 @@
 <p>就能查看square的注释信息。</p>
 <p>此外，查看类型也是非常重要的,这里我们要用到函数 <em>class</em></p>
 <figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">class</span></span> <span class="number">1</span>)</span></span><br></pre></td></tr></table></figure>
-<h2 id="提示">提示</h2><p>为了编写Clojure程序，我们需要一些其他的工具，具体可参阅</p>
-<ul>
-<li>[ ] 如何编写Clojure程序</li>
-</ul>
+<h2 id="提示">提示</h2><p>为了编写Clojure程序，我们需要一些其他的工具，具体可参阅 <em>如何编写Clojure程序</em>。</p>
 </span>
       
     </div>
