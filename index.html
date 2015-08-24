@@ -351,8 +351,8 @@
 <p>这里，defn是定义函数的宏名，square是函数名，[…]中按顺序可以写任意数量的参数（比如[x y z]），最后就是写上函数的定义部分了。代码规范的同学，这时候可以加上一句注释</p>
 <figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">defn</span></span> square <span class="string">"square function"</span> <span class="collection">[x]</span> <span class="list">(<span class="keyword"><span class="built_in">*</span></span> x x)</span>)</span></span><br></pre></td></tr></table></figure>
 <p>这样当其他人需要知道 <em>square</em> 这个函数是做什么的时候，只要输入</p>
-<figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword">doc</span> f4)</span></span><br></pre></td></tr></table></figure>
-<p>就能查看注释信息。</p>
+<figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword">doc</span> square)</span></span><br></pre></td></tr></table></figure>
+<p>就能查看square的注释信息。</p>
 <p>此外，查看类型也是非常重要的,这里我们要用到函数 <em>class</em></p>
 <figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="list">(<span class="keyword"><span class="built_in">class</span></span> <span class="number">1</span>)</span></span><br></pre></td></tr></table></figure>
 <h2 id="提示">提示</h2><p>为了编写Clojure程序，我们需要一些其他的工具，具体可参阅</p>
