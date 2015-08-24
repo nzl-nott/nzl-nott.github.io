@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nzl-nott.github.io/2015/08/24/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99Clojure%E7%A8%8B%E5%BA%8F/</loc>
+    <lastmod>2015-08-24T09:18:29.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nzl-nott.github.io/2015/08/24/Clojure%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
+    <lastmod>2015-08-24T05:14:18.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nzl-nott.github.io/2015/08/22/hello-world/</loc>
     <lastmod>2015-08-22T16:55:55.000Z</lastmod>
   </url>
